@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,45 @@
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- <style>
+
+  input[type=text] {
+  width: 25%;
+  padding: 8px 15px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+</style> -->
 
 </head>
+
 <body>
 
 
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
+    
         <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
         </label>
-
+    
         <div class="navigation__background">&nbsp;</div>
-
+    
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__items"><a href="#home" onclick="closeNav()" class="navigation__link">Home</a></li>
-                <li class="navigation__items"><a href="#about" onclick="closeNav()" class="navigation__link">About Me</a></li>
-                <li class="navigation__items"><a href="#portfolio" onclick="closeNav()" class="navigation__link">Portfolio</a></li>
-                <li class="navigation__items"><a href="#contact" onclick="closeNav()" class="navigation__link">Contact</a></li>
+                <li class="navigation__items">
+                    <a href="#home" onclick="closeNav()" class="navigation__link">Home</a>
+                </li>
+                <li class="navigation__items">
+                    <a href="#about" onclick="closeNav()" class="navigation__link">About Me</a>
+                </li>
+                <li class="navigation__items">
+                    <a href="#portfolio" onclick="closeNav()" class="navigation__link">Portfolio</a>
+                </li>
+                <li class="navigation__items">
+                    <a href="#contact" onclick="closeNav()" class="navigation__link">Contact</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -51,273 +71,167 @@
         </div>
     </header>
 
-<main>
 
-    <section class="section-about" id="about">
-        <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">
-                About Me
-             </h2>
-        </div>
-
-            <div class="row">
-            <div class="col-1-of-2">
-                <p class="paragraph">
-                    Jennifer Dean is a full stack developer. She has attended the Full Stack Web Development 
-                    Program through the University of Kansas. She has also recieved her Master's in Computer Information
-                    Systems through the University of Bellevue.
-                </p>
-                <p class="paragraph">
-                        Jennifer has experience in languages such as HTML, CSS, Javascript, and JQuery. She also has experience
-                        utilizing Bootstrap and NodeJs. She looks forward to using her development skills to create
-                        applications for you.
-                </p>
-                <!-- <a href="#" class="btn-text"> Contact &rarr;</a> -->
-                <!-- <img src="abc" alt="text"> -->
-                </div>
-        <div class="col-1-of-2">
-            <div class="composition">
-                <image src="img/Jenny Dean1.jpg" alt="photo" class="composition__photo composition__photo--p1"></image>
-                <!-- <image src="img/crystal.jpg" alt="crystal" class="composition__photo composition__photo--p2"></image>
-                <image src="img/train.jpg" alt="train" class="composition__photo composition__photo--p3"></image> -->
-            </div>
-        </div>
-    </div> 
-        </section>
-        
-        <!-- <section class="section_features"> -->
-            <!-- <i class="icon-basic-world"></i> -->
-<!--         
-            <div class="row">
-                <div class="col-1-of-4">
-                    <div class="feature-box"> -->
-                        <!-- <image src="img/crystal.jpg" class="feature_box__icon"></image> -->
-                        <!-- <i class="feature_box__icon icon-basic-world"></i> -->
-                        <!-- <image src="img/crystal.jpg" alt="crystal" class="feature_box__image"></image> -->
-                        <!-- <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
-                        <p class="feature-box__text">
-                            asdfasefasdf
-                        </p>
-                    </div>
-                </div>
-        
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="feature_box__icon icon-basic-world"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
-                        <p class="feature-box__text">
-                            asdfasefasdf
-                        </p>
-                    </div>
-                </div>
-        
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="feature_box__icon icon-basic-world"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
-                        <p class="feature-box__text">
-                            asdfasefasdf
-                        </p>
-                    </div>
-                </div> -->
-        
-                <!-- <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="feature_box__icon icon-basic-world"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
-                        <p class="feature-box__text">
-                            asdfasefasdf
-                        </p>
-                    </div>
-                </div>
-        <div class="col-1-of-4">
-            <div class="feature-box">
-                <i class="feature_box__icon icon-basic-world"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
-                <p class="feature-box__text">
-                    asdfasefasdf
-                </p>
-            </div>
-        </div>
-        
-        <div class="col-1-of-4">
-            <div class="feature-box">
-                <i class="feature_box__icon icon-basic-world"></i>
-                <h3 class="heading-tertiary u-margin-bottom-small">Explore the World</h3>
-                <p class="feature-box__text">
-                    asdfasefasdf
-                </p>
-            </div>
-        </div>
-        </div>
-        </section> -->
-        
-        <section class="section_features" id="portfolio">
-        <!-- <section class="section-tours"> -->
+    <main>
+        <section class="section-about" id="about">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
-                    Portfolio
+                    About Me
                 </h2>
             </div>
-        
-        <div class="row">
-            <div class="col-1-of-4">
-                <div class="card">
-                    <div class="card__side card__side--front">
-                        <div class="card__picture card__picture--1">
-                            &nbsp;
-                        </div>
-                        <div class="card__heading">
-                            Train Time
-                        </div>
-                        <div class="card__details">
-            
-                        </div>
-            
-                    </div>
-                    <div class="card__side card__side--back card__side--back--1">
-                        <div class="card__cta">
-                            <div class="card__link">
-            
-                            </div>
-                            <a href="https://jenjen980.github.io/train_time/" class="btn btn--white">Look</a>
-                        </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <p class="paragraph">
+                        Jennifer Dean is a full stack developer. She has attended the Full Stack Web Development Program through the University of
+                        Kansas. She has also recieved her Master's in Computer Information Systems through the University
+                        of Bellevue.
+                    </p>
+                    <p class="paragraph">
+                        Jennifer has experience in languages such as HTML, CSS, Javascript, and JQuery. She also has experience utilizing Bootstrap
+                        and NodeJs. She looks forward to using her development skills to create applications for you.
+                    </p>
+                    <!-- <a href="#" class="btn-text"> Contact &rarr;</a> -->
+                    <!-- <img src="abc" alt="text"> -->
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <image src="img/Jenny Dean1.jpg" alt="photo" class="composition__photo composition__photo--p1"></image>
+                        <!-- <image src="img/crystal.jpg" alt="crystal" class="composition__photo composition__photo--p2"></image>
+                <image src="img/train.jpg" alt="train" class="composition__photo composition__photo--p3"></image> -->
                     </div>
                 </div>
             </div>
-                <div class="col-1-of-4">
-                    <div class="card">
-                        <div class="card__side card__side--front">
-                            <div class="card__picture card__picture--2">
-                                &nbsp;
+        </section>
+
+        <section class="section_features" id="portfolio">
+            <section class="section-tours">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Portfolio
+                    </h2>
+                </div>
+        
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    Train Time
+                                </div>
+                                <div class="card__details">
+                                </div>
                             </div>
-                            <div class="card__heading">
-                                Crystal Collector
+                            <div class="card__side card__side--back card__side--back--1">
+                                <div class="card__cta">
+                                    <div class="card__link">
+        
+                                    </div>
+                                    <a href="https://jenjen980.github.io/train_time/" class="btn btn--white">Look</a>
+                                </div>
                             </div>
-                            <div class="card__details">
-                                
-                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    Crystal Collector
+                                </div>
+                                <div class="card__details">
+        
+                                </div>
                             </div>
                             <div class="card__side card__side--back card__side--back--2">
                                 <div class="card__cta">
                                     <div class="card__link">
-                            
                                     </div>
                                     <a href="https://jenjen980.github.io/unit-4-game/" class="btn btn--white">Look</a>
                                 </div>
                             </div>
-                            </div>
-                            </div>
-                            <div class="col-1-of-4">
-                                <div class="card">
-                                    <div class="card__side card__side--front">
-                                        <div class="card__picture card__picture--3">
-                                            &nbsp;
-                                        </div>
-                                        <div class="card__heading">
-                                            Eat-Da-Burger
-                                        </div>
-                                        <div class="card__details">
-                                            
-                                        </div>
-                            
-                                    </div>
-                                    <div class="card__side card__side--back card__side--back--3">
-                                        <div class="card__cta">
-                                            <div class="card__link">
-                            
-                                            </div>
-                                            <a href="https://intense-sierra-51668.herokuapp.com/index" class="btn btn--white">Look</a>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    Eat-Da-Burger
+                                </div>
+                                <div class="card__details">
                                 </div>
                             </div>
-                            <div class="col-1-of-4">
-                                <div class="card">
-                                    <div class="card__side card__side--front">
-                                        <div class="card__picture card__picture--4">
-                                            &nbsp;
-                                        </div>
-                                        <div class="card__heading">
-                                            Dog Clicky Game
-                                        </div>
-                                        <div class="card__details">
-                            
-                                        </div>
+                            <div class="card__side card__side--back card__side--back--3">
+                                <div class="card__cta">
+                                    <div class="card__link">
                                     </div>
-                                    <div class="card__side card__side--back card__side--back--4">
-                                        <div class="card__cta">
-                                            <div class="card__link">
-                            
-                                            </div>
-                                            <a href="https://shielded-beyond-93429.herokuapp.com/" class="btn btn--white">Look</a>
-                                        </div>
-                                    </div>
+                                    <a href="https://intense-sierra-51668.herokuapp.com/index" class="btn btn--white">Look</a>
                                 </div>
                             </div>
-                        <!-- </div> -->
-
-            <!-- <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side">
-                        Front
-                    </div>
-                    <div class="card__side">
-                        Back
-                    </div>
-                </div>
-            </div>
-            <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side">
-                        Front
-                    </div>
-                    <div class="card__side">
-                        Back
-                    </div>
-                </div>
-            </div>
-            <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side">
-                        Front
-                    </div>
-                    <div class="card__side">
-                        Back
-                    </div>
-            </div>
-        </div> -->
-    </section>
-<!-- <br> -->
-    <section class="section-book" id="contact">
-        <div class="row">
-            <div class="book">
-                <div class="book_form">
-                    <form action="#" class="form">
-                        <div class="u-margin-bottom-medium">
-                            <h2 class="heading-secondary">
-                                Contact Me
-                            </h2>
                         </div>
-                        <div class="form__group">
-                            <input type="text" class="form__input" placeholder="Name" id="name" required>
-                            <label for="name" class="form__label">Name</label>
-                        </div>
-
-                        <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Email" id="email" required>
-                                <label for="email" class="form__label">Email</label>
+                    </div>
+                    <div class="col-1-of-4">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--4">
+                                    &nbsp;
+                                </div>
+                                <div class="card__heading">
+                                    Dog Clicky Game
+                                </div>
+                                <div class="card__details">
+                                </div>
                             </div>
+                            <div class="card__side card__side--back card__side--back--4">
+                                <div class="card__cta">
+                                    <div class="card__link">
+                                    </div>
+                                    <a href="https://shielded-beyond-93429.herokuapp.com/" class="btn btn--white">Look</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </section>
 
-                            <a href="mailto:email@address.com">Submit</a>
-                    </form>
-                <br>
-                    <div class="book_form">
-                        <form action="#" class="form">
+        <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form method ="POST" action="mailto:jenniferdean622@gmail.com" class="form">
                             <div class="u-margin-bottom-medium">
                                 <h2 class="heading-secondary">
-                                    Follow Me
+                                    Contact Me
                                 </h2>
+                            </div>
+
+                            <!-- <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Name" id="name" required>
+                            </div>
+                            <br>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email" id="email" required> -->
+                                <!-- <label for="email" class="form__label">Email</label> -->
+                            <!-- </div>
+                            <br>
+                            <button type="submit" value="Submit">Submit</button>
+                            <a href="mailto:jenniferdean622@gmail.com">Submit</a>
+                        </form> -->
+                        <!-- <br> -->
+                        <div class="book_form">
+                            <form action="#" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">
+                                        <!-- Follow Me -->
+                                    </h2>
                                 </div>
                                 <div class="col-1-of-2">
                                     <div class="composition">
@@ -329,46 +243,54 @@
                                         </a>
                                     </div>
                                 </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
 
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">About Me</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#contact" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
-
-
-<footer class="footer">
-    <div class="row">
-        <div class="col-1-of-2">
-            <div class="footer__navigation">
-                <ul class="footer__list">
-                    <li class="footer__item"><a href="#home" class="footer__link">Home</a></li>
-                    <li class="footer__item"><a href="#about" class="footer__link">About Me</a></li>
-                    <li class="footer__item"><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                    <li class="footer__item"><a href="#contact" class="footer__link">Contact Me</a></li>
-                </ul>
+            <div class="col-1-of-2">
+                <p class="footer_copyright">
+                    <!-- <a href="#" class="footer__link">Jennifer Dean</a>Copyright &copy; -->
+                </p>
             </div>
         </div>
-        <div class="col-1-of-2">
-            <p class="footer_copyright">
-                <!-- <a href="#" class="footer__link">Jennifer Dean</a>Copyright &copy; -->
-            </p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
-<script>
-    function closeNav(){
-        console.log('closeNav');
-        $('#navi-toggle').prop('checked', false);
-    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+    <script>
+        function closeNav() {
+            console.log('closeNav');
+            $('#navi-toggle').prop('checked', false);
+        }
 
-    $('a[href*=\\#]').click(function(event){
-        $('html, body').animate({scrollTop: $($.attr(this, 'href')).offset().top}, 1000);
-    });
-</script>
+        $('a[href*=\\#]').click(function (event) {
+            $('html, body').animate({ scrollTop: $($.attr(this, 'href')).offset().top }, 1000);
+        });
+    </script>
 
 </body>
+
 </html>
